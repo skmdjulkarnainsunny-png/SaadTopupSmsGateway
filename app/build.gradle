@@ -1,0 +1,28 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.saadtopup.smsgateway'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.saadtopup.smsgateway"
+        minSdk 26
+        targetSdk 35
+        versionCode 8
+        versionName "5.3-rocket-fix"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:33.10.0')
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'androidx.core:core:1.15.0'
+}
