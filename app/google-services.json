@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "514495331424",
+    "firebase_url": "https://saad-topup-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "saad-topup",
+    "storage_bucket": "saad-topup.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514495331424:android:226b718b3506987e6ed705",
+        "android_client_info": {
+          "package_name": "com.saadtopup.smsgateway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514495331424-dd38bv6d92qk20dis080jj7kduqqo3e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDFIZq9G_jb3WHZyCbiLlXQ02pfajpkLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514495331424-dd38bv6d92qk20dis080jj7kduqqo3e6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
